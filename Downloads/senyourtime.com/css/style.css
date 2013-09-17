@@ -125,10 +125,33 @@ article h2 { }
 #fifth li { list-style-type:circle;}
 
 /* Senior Nights */
-#sixth, #eigth {padding:50px 0;}
-#sixth, #eigth .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-#sixth, #eigth article p { margin-bottom: 25px; width:400px; }
-#sixth, #eigth article a { color: #ff0;}
+#sixth {padding:50px 0;}
+#sixth  .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#sixth article p { margin-bottom: 25px; width:400px; }
+#sixth article a { color: #ff0;}
+
+
+#seventh article {  padding: 10px 20px; margin: 0px 0 0 56%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
+#seventh article p { width: 400px; margin-bottom: 25px; }
+#seventh article a { color: #ff0;}
+
+#seventh .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+
+#seventh li { list-style-type:circle; }
+
+#eighth {padding:50px 0;}
+#eighth  .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#eighth article p { margin-bottom: 25px; width:400px; }
+#eighth article a { color: #ff0;}
+
+
+#ninth article {  padding: 10px 20px; margin: 0px 0 0 56%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
+#ninth article p { width: 400px; margin-bottom: 25px; }
+#ninth article a { color: #ff0;}
+
+#ninth .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+
+#ninth li { list-style-type:circle; }
 
 
 /* FAQ */
