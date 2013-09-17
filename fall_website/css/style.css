@@ -1,3 +1,4 @@
+
 body {
 	background: #333132;
 }
@@ -81,11 +82,11 @@ article h2 { }
 }
 
 #first { background: url(../images/bg_gate.jpg) 50% 0 no-repeat fixed; }
-#second {background: url(../images/senior_nights.jpg)50% 0 no-repeat fixed;}
-#third{background: url(../images/bg_gsb.jpg) 50% 0 no-repeat fixed;}
-#fourth {background: url(../images/tailgates.jpg) 50% 0 no-repeat fixed;}
-#fifth{background: url(../images/skybox.jpg)50% 0 no-repeat fixed;}
-#sixth{background: url(../images/neighborhood-block-party.jpg)50% 0 no-repeat fixed;}
+#third {background: url(../images/senior_nights.jpg)50% 0 no-repeat fixed;}
+#fourth{background: url(../images/bg_gsb.jpg) 50% 0 no-repeat fixed;}
+#fifth {background: url(../images/tailgates.jpg) 50% 0 no-repeat fixed;}
+#sixth{background: url(../images/skybox.jpg)50% 0 no-repeat fixed;}
+#seventh{background: url(../images/neighborhood-block-party.jpg)50% 0 no-repeat fixed;}
 
 
 /* Introduction */
