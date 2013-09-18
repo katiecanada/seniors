@@ -90,7 +90,7 @@ article h2 { }
 #seventh{background: url(../images/neighborhood-block-party.jpg)50% 0 no-repeat fixed;}
 #twelveth {background: url(../images/confessions.png)50% 0 no-repeat fixed;}
 
-l1 {list-style-type:circle; }
+li {list-style-type:circle; }
 
 /* Introduction */
 #first article { width: 100%; top: 5px; position: absolute; text-align: center; }
