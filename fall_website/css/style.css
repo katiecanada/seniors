@@ -69,12 +69,11 @@ nav#primary a.eighth{
 }
 nav#primary a.ninth{
 	background: transparent url('../images/nav-dot-study.png') 4px 4px no-repeat;
-}
-nav#primary a.tenth{
-	background: transparent url('../images/nav-dot-swag.png') 4px 4px no-repeat;
+}nav#primary a.tenth{
+	background: transparent url('../images/nav-dot-lunch.png') 4px 4px no-repeat;
 }
 nav#primary a.eleventh{
-	background: transparent url('../images/nav-dot-lunch.png') 4px 4px no-repeat;
+	background: transparent url('../images/nav-dot-swag.png') 4px 4px no-repeat;
 }
 nav#primary a.twelveth{
 	background: transparent url('../images/nav-dot-confessions.png') 4px 4px no-repeat;
@@ -127,8 +126,11 @@ article h2 { }
 #fourth{background: url(../images/bg_gsb.jpg) 50% 0 no-repeat fixed;}
 #fifth {background: url(../images/tailgates.jpg) 50% 0 no-repeat fixed;}
 #sixth{background: url(../images/skybox.jpg)50% 0 no-repeat fixed;}
-#seventh{background: url(../images/neighborhood-block-party.jpg)50% 0 no-repeat fixed;}
+#seventh{background: url(../images/bg_fountain.jpg)50% 0 no-repeat fixed;}
+#eighth{background: url(../images/wine.jpg)50% 0 no-repeat fixed;}
 #ninth{background: url(../images/study_break.jpg)50% 0 no-repeat fixed;}
+#tenth{background: url(../images/condi.jpg)50% 0 no-repeat fixed;}
+#eleventh{background: url(../images/swag.jpg)50% 0 no-repeat fixed;}
 #twelveth{background: url(../images/confessions.jpg)50% 0 no-repeat fixed;}
 
 
