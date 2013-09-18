@@ -40,6 +40,46 @@ nav#primary a {
 	text-indent: -9999px;
 	background: transparent url('../images/nav-dot.png') 4px 4px no-repeat;
 }
+nav#primary a.first{
+	background: transparent url('../images/nav-dot-top.png') 4px 4px no-repeat;
+}
+nav#primary a.second{
+	background: transparent url('../images/nav-dot-welcome.png') 4px 4px no-repeat;
+}
+nav#primary a.third{
+	background: transparent url('../images/nav-dot-nights.png') 4px 4px no-repeat;
+}
+
+nav#primary a.fourth{
+	background: transparent url('../images/nav-dot-cdc.png') 4px 4px no-repeat;
+}
+
+nav#primary a.fifth{
+	background: transparent url('../images/nav-dot-tailgate.png') 4px 4px no-repeat;
+}
+
+nav#primary a.sixth{
+	background: transparent url('../images/nav-dot-skybox.png') 4px 4px no-repeat;
+}
+nav#primary a.seventh{
+	background: transparent url('../images/nav-dot-party.png') 4px 4px no-repeat;
+}
+nav#primary a.eighth{
+	background: transparent url('../images/nav-dot-wine.png') 4px 4px no-repeat;
+}
+nav#primary a.ninth{
+	background: transparent url('../images/nav-dot-study.png') 4px 4px no-repeat;
+}
+nav#primary a.tenth{
+	background: transparent url('../images/nav-dot-swag.png') 4px 4px no-repeat;
+}
+nav#primary a.eleventh{
+	background: transparent url('../images/nav-dot-lunch.png') 4px 4px no-repeat;
+}
+nav#primary a.twelveth{
+	background: transparent url('../images/nav-dot-confessions.png') 4px 4px no-repeat;
+}
+
 nav#primary a:hover, nav#primary a.active {
 	background: transparent url('../images/nav-dot.png') 4px -16px no-repeat;
 }
@@ -71,7 +111,7 @@ nav.next-prev {
 		margin: 5px auto 0 auto;
 		background: transparent url('../images/scroll-down.png') 0 0 no-repeat;
 		}
-#eighth a.next {
+#twelveth a.next {
 		margin: 5px auto 0 auto;
 		background: transparent url('../images/scroll-up.png') 0 0 no-repeat;
 		}
@@ -88,7 +128,9 @@ article h2 { }
 #fifth {background: url(../images/tailgates.jpg) 50% 0 no-repeat fixed;}
 #sixth{background: url(../images/skybox.jpg)50% 0 no-repeat fixed;}
 #seventh{background: url(../images/neighborhood-block-party.jpg)50% 0 no-repeat fixed;}
-#twelveth {background: url(../images/confessions.png)50% 0 no-repeat fixed;}
+#ninth{background: url(../images/study_break.jpg)50% 0 no-repeat fixed;}
+#twelveth{background: url(../images/confessions.jpg)50% 0 no-repeat fixed;}
+
 
 li {list-style-type:circle; }
 
@@ -98,7 +140,6 @@ li {list-style-type:circle; }
 #first article a { text-decoration: underline; }
 #first article a:hover { color: #fff; }
 
-/* Live in the Moment */
 #second, #fourth, #sixth, #eighth, #tenth, #twelveth { padding: 50px 0;}
 #second .blackbox, #fourth .blackbox, #sixth .blackbox, #eighth  .blackbox, #tenth  .blackbox , #twelveth .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
 
