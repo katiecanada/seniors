@@ -135,6 +135,34 @@ $(document).ready(function(){
 		});
     	return false;
     })
+    $('a.ninth').click(function(){
+    	$('html, body').animate({
+    		scrollTop:$('#ninth').offset().top
+    	}, 1000, function() {
+		});
+    	return false;
+    })
+    $('a.tenth').click(function(){
+    	$('html, body').animate({
+    		scrollTop:$('#tenth').offset().top
+    	}, 1000, function() {
+		});
+    	return false;
+    })
+    $('a.eleventh').click(function(){
+    	$('html, body').animate({
+    		scrollTop:$('#eleventh').offset().top
+    	}, 1000, function() {
+		});
+    	return false;
+    })
+    $('a.twelveth').click(function(){
+    	$('html, body').animate({
+    		scrollTop:$('#twelveth').offset().top
+    	}, 1000, function() {
+		});
+    	return false;
+    })
 
 
 }); // document ready
@@ -159,7 +187,13 @@ function redrawDotNav(){
 	var section5Top =  $('#fifth').offset().top - (($('#sixth').offset().top - $('#fifth').offset().top) / 2);
 	var section6Top =  $('#sixth').offset().top - (($('#seventh').offset().top - $('#sixth').offset().top) / 2);
 	var section7Top =  $('#seventh').offset().top - (($('#eighth').offset().top - $('#seventh').offset().top) / 2);
-	var section8Top =  $('#eighth').offset().top - (($(document).height() - $('#eighth').offset().top) / 2);;
+	var section8Top =  $('#eighth').offset().top - (($('#ninth').offset().top - $('#eighth').offset().top) / 2);;
+	var section9Top =  $('#ninth').offset().top - (($('#tenth').offset().top - $('#ninth').offset().top) / 2);;
+	var section10Top =  $('#tenth').offset().top - (($('#eleventh').offset().top - $('#tenth').offset().top) / 2);;
+	var section11Top =  $('#eleventh').offset().top - (($('#twelveth').offset().top - $('#eleventh').offset().top) / 2);;
+	var section12Top =  $('#twelveth').offset().top - (($(document).height() - $('#twelveth').offset().top) / 2);;
+
+
 	$('nav#primary a').removeClass('active');
 	if($(document).scrollTop() >= section1Top && $(document).scrollTop() < section2Top){
 		$('nav#primary a.first').addClass('active');
@@ -175,8 +209,16 @@ function redrawDotNav(){
 		$('nav#primary a.sixth').addClass('active');
 	} else if ($(document).scrollTop() >= section7Top && $(document).scrollTop() < section8Top){
 		$('nav#primary a.seventh').addClass('active');
-	} else if ($(document).scrollTop() >= section8Top){
+	} else if ($(document).scrollTop() >= section8Top && $(document).scrollTop() < section9Top){
 		$('nav#primary a.eighth').addClass('active');
+	} else if ($(document).scrollTop() >= section9Top && $(document).scrollTop() < section10Top){
+		$('nav#primary a.ninth').addClass('active');
+	} else if ($(document).scrollTop() >= section10Top && $(document).scrollTop() < section11Top){
+		$('nav#primary a.tenth').addClass('active');
+	} else if ($(document).scrollTop() >= section11Top && $(document).scrollTop() < section12Top){
+		$('nav#primary a.eleventh').addClass('active');
+	} else if ($(document).scrollTop() >= section12Top){
+		$('nav#primary a.twelveth').addClass('active');
 	} 
 	
 }

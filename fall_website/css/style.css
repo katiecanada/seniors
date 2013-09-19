@@ -1,3 +1,4 @@
+
 body {
 	background: #333132;
 }
@@ -39,6 +40,45 @@ nav#primary a {
 	text-indent: -9999px;
 	background: transparent url('../images/nav-dot.png') 4px 4px no-repeat;
 }
+nav#primary a.first{
+	background: transparent url('../images/nav-dot-top.png') 4px 4px no-repeat;
+}
+nav#primary a.second{
+	background: transparent url('../images/nav-dot-welcome.png') 4px 4px no-repeat;
+}
+nav#primary a.third{
+	background: transparent url('../images/nav-dot-nights.png') 4px 4px no-repeat;
+}
+
+nav#primary a.fourth{
+	background: transparent url('../images/nav-dot-cdc.png') 4px 4px no-repeat;
+}
+
+nav#primary a.fifth{
+	background: transparent url('../images/nav-dot-tailgate.png') 4px 4px no-repeat;
+}
+
+nav#primary a.sixth{
+	background: transparent url('../images/nav-dot-skybox.png') 4px 4px no-repeat;
+}
+nav#primary a.seventh{
+	background: transparent url('../images/nav-dot-party.png') 4px 4px no-repeat;
+}
+nav#primary a.eighth{
+	background: transparent url('../images/nav-dot-wine.png') 4px 4px no-repeat;
+}
+nav#primary a.ninth{
+	background: transparent url('../images/nav-dot-study.png') 4px 4px no-repeat;
+}nav#primary a.tenth{
+	background: transparent url('../images/nav-dot-lunch.png') 4px 4px no-repeat;
+}
+nav#primary a.eleventh{
+	background: transparent url('../images/nav-dot-swag.png') 4px 4px no-repeat;
+}
+nav#primary a.twelveth{
+	background: transparent url('../images/nav-dot-confessions.png') 4px 4px no-repeat;
+}
+
 nav#primary a:hover, nav#primary a.active {
 	background: transparent url('../images/nav-dot.png') 4px -16px no-repeat;
 }
@@ -70,7 +110,7 @@ nav.next-prev {
 		margin: 5px auto 0 auto;
 		background: transparent url('../images/scroll-down.png') 0 0 no-repeat;
 		}
-#eighth a.next {
+#twelveth a.next {
 		margin: 5px auto 0 auto;
 		background: transparent url('../images/scroll-up.png') 0 0 no-repeat;
 		}
@@ -81,12 +121,19 @@ article h2 { }
 }
 
 #first { background: url(../images/bg_gate.jpg) 50% 0 no-repeat fixed; }
-#second {background: url(../images/bg_champagne.jpg)50% 0 no-repeat fixed;}
-#third{background: url(../images/bg_senior_nights.jpg) 50% 0 no-repeat fixed;}
-#fourth {background: url(../images/tailgates.jpg) 50% 0 no-repeat fixed;}
-#fifth{background: url(../images/skybox.jpg)50% 0 no-repeat fixed;}
-#sixth{background: url(../images/neighborhood-block-party.jpg)50% 0 no-repeat fixed;}
+#second{ background: url(../images/fourteen_banner.jpg) 50% 0 no-repeat fixed; }
+#third {background: url(../images/senior_nights.jpg)50% 0 no-repeat fixed;}
+#fourth{background: url(../images/bg_gsb.jpg) 50% 0 no-repeat fixed;}
+#fifth {background: url(../images/tailgates.jpg) 50% 0 no-repeat fixed;}
+#sixth{background: url(../images/skybox.jpg)50% 0 no-repeat fixed;}
+#seventh{background: url(../images/bg_fountain.jpg)50% 0 no-repeat fixed;}
+#eighth{background: url(../images/wine.jpg)50% 0 no-repeat fixed;}
+#ninth{background: url(../images/study_break.jpg)50% 0 no-repeat fixed;}
+#tenth{background: url(../images/condi.jpg)50% 0 no-repeat fixed;}
+#eleventh{background: url(../images/swag.jpg)50% 0 no-repeat fixed;}
+#twelveth{background: url(../images/confessions.jpg)50% 0 no-repeat fixed;}
 
+li {list-style-type:circle; }
 
 /* Introduction */
 #first article { width: 100%; top: 5px; position: absolute; text-align: center; }
@@ -94,64 +141,18 @@ article h2 { }
 #first article a { text-decoration: underline; }
 #first article a:hover { color: #fff; }
 
-/* Live in the Moment */
-#second { padding: 50px 0;}
-#second .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#second, #fourth, #sixth, #eighth, #tenth, #twelveth { padding: 50px 0;}
+#second .blackbox, #fourth .blackbox, #sixth .blackbox, #eighth  .blackbox, #tenth  .blackbox , #twelveth .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
 
-#second article p { margin-bottom: 25px; width:400px; }
-#second article a { color: #ff0;}
+#second article p, #fourth article p, #sixth article p, #eighth article p, #tenth article p , #twelveth article p { margin-bottom: 25px; width:400px; }
+#second article a, #fourth article a, #sixth article a, #eighth article a, #tenth article a , #twelveth article a { color: #ff0;}
 
-/* Feel the Fourteen Love */
-#third article {  padding: 10px 20px; margin: 0px 0 0 56%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
-#third article p { width: 400px; margin-bottom: 25px; }
-#third article a { color: #ff0;}
+#third article, #fifth article, #seventh article, #ninth article, #eleventh article {  padding: 10px 20px; margin: 0px 0 0 56%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
+#third article p, #fifth article p, #seventh article p, #ninth article p, #eleventh article p  { width: 400px; margin-bottom: 25px; }
+#third article a, #fifth article a, #seventh article a, #ninth article a, #eleventh article a { color: #ff0;}
 
-#third .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#third .blackbox, #fifth .blackbox, #seventh .blackbox, #ninth .blackbox, #eleventh .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
 
-#third li { list-style-type:circle; }
-
-/* Jump Into Your Future */
-#fourth { padding: 50px 0;}
-#fourth .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-
-#fourth article p { margin-bottom: 25px; width:400px; }
-#fourth article a { color: #ff0;}
-#fourth li { list-style-type:circle;}
-
-/* Senior Days */
-#fifth article {  padding: 10px 20px; margin: 80px 0 0 56%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
-#fifth article p { width: 400px; margin-bottom: 20px; }
-#fifth .blackbox { margin-top:15px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-#fifth li { list-style-type:circle;}
-
-/* Senior Nights */
-#sixth {padding:50px 0;}
-#sixth  .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-#sixth article p { margin-bottom: 25px; width:400px; }
-#sixth article a { color: #ff0;}
-
-
-#seventh article {  padding: 10px 20px; margin: 0px 0 0 56%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
-#seventh article p { width: 400px; margin-bottom: 25px; }
-#seventh article a { color: #ff0;}
-
-#seventh .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-
-#seventh li { list-style-type:circle; }
-
-#eighth {padding:50px 0;}
-#eighth  .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-#eighth article p { margin-bottom: 25px; width:400px; }
-#eighth article a { color: #ff0;}
-
-
-#ninth article {  padding: 10px 20px; margin: 0px 0 0 56%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
-#ninth article p { width: 400px; margin-bottom: 25px; }
-#ninth article a { color: #ff0;}
-
-#ninth .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-
-#ninth li { list-style-type:circle; }
 
 
 /* FAQ */
@@ -162,6 +163,13 @@ article h2 { }
 	top:10px;
 	z-index: 99901;
 	cursor: hand; cursor: pointer; 
+}
+#fb{
+	position: fixed;
+	right:10px;
+	top:60px;
+	z-index: 99901;
+	cursor :hand; cursor:pointer;
 }
 
 /* the overlayed element */
