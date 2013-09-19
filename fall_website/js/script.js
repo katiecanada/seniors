@@ -191,7 +191,8 @@ function redrawDotNav(){
 	var section9Top =  $('#ninth').offset().top - (($('#tenth').offset().top - $('#ninth').offset().top) / 2);;
 	var section10Top =  $('#tenth').offset().top - (($('#eleventh').offset().top - $('#tenth').offset().top) / 2);;
 	var section11Top =  $('#eleventh').offset().top - (($('#twelveth').offset().top - $('#eleventh').offset().top) / 2);;
-	var section12Top =  $('#twelveth').offset().top - (($(document).height() - $('#twelveth').offset().top) / 2);;
+	var section12Top =  $('#twelveth').offset().top - (($('#last').offset().top - $('#twelveth').offset().top) / 2);;
+	var lastsectionTop =  $('#last').offset().top - (($(document).height() - $('#last').offset().top) / 2);;
 
 
 	$('nav#primary a').removeClass('active');
@@ -217,8 +218,10 @@ function redrawDotNav(){
 		$('nav#primary a.tenth').addClass('active');
 	} else if ($(document).scrollTop() >= section11Top && $(document).scrollTop() < section12Top){
 		$('nav#primary a.eleventh').addClass('active');
-	} else if ($(document).scrollTop() >= section12Top){
+	} else if ($(document).scrollTop() >= section12Top && $(document).scrollTop() < lastsectionTop){
 		$('nav#primary a.twelveth').addClass('active');
+	} else if ($(document).scrollTop() >= lastsectionTop ){
+		$('nav#primary a.last').addClass('active');
 	} 
 	
 }

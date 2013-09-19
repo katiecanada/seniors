@@ -129,7 +129,7 @@ article h2 { }
 #seventh{background: url(../images/bg_fountain.jpg)50% 0 no-repeat fixed;}
 #eighth{background: url(../images/wine.jpg)50% 0 no-repeat fixed;}
 #ninth{background: url(../images/study_break.jpg)50% 0 no-repeat fixed;}
-#tenth{background: url(../images/lunch.jpg)50% 0 no-repeat fixed;}
+#tenth{background: url(../images/lunch2.jpg)50% 0 no-repeat fixed;}
 #eleventh{background: url(../images/swag.jpg)50% 0 no-repeat fixed;}
 #twelveth{background: url(../images/confessions.jpg)50% 0 no-repeat fixed;}
 
@@ -153,6 +153,26 @@ li {list-style-type:circle; }
 
 #third .blackbox, #fifth .blackbox, #seventh .blackbox, #ninth .blackbox, #eleventh .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
 
+.horizontalbox{
+	background: black; 
+	height:100%; 
+	width: 1000px;
+	color:#fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+	line-height:1.5em; 
+	box-shadow: 0 0 25px rgba(0,0,0,0.3); 
+	//border:1px solid rgba(150,150, 150,0.1);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#last article h1{
+	margin-bottom: 15px;
+	margin-top:15px;
+	text-align: center;
+}
 
 
 /* FAQ */
@@ -203,4 +223,16 @@ li {list-style-type:circle; }
     cursor:pointer;
     height:35px;
     width:35px;
+}
+
+.video{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+#last{
+		background-color: 	 #BD2031;
+
 }
