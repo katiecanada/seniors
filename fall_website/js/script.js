@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$('#weekendlist2').hide();					
 	// Cache the Window object
 	$window = $(window);
-	
+		
 	// Cache the Y offset and the speed of each sprite
 	$('[data-type]').each(function() {	
 		$(this).data('offsetY', parseInt($(this).attr('data-offsetY')));
@@ -26,7 +26,10 @@ $(document).ready(function(){
 		
 		// When the window is scrolled...
 	    $(window).scroll(function() {
-	
+		   	//check if device is iOS, if so don't add sprite effect
+
+		    var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false );
+				if(!iOS){
 			redrawDotNav();
 			// If this section is in view
 			if ( ($window.scrollTop() + $window.height()) > (topOffset) &&
@@ -35,11 +38,14 @@ $(document).ready(function(){
 				// Scroll the background at var speed
 				// the yPos is a negative value because we're scrolling it UP!								
 				var yPos = -($window.scrollTop() / $self.data('speed')); 
+								
 				
 				// If this element has a Y offset then add it on
 				if ($self.data('offsetY')) {
 					yPos += $self.data('offsetY');
 				}
+				
+		
 				
 				// Put together our final background position
 				var coords = '50% '+ yPos + 'px';
@@ -63,7 +69,7 @@ $(document).ready(function(){
 			
 			
 			}; // in view
-	
+			}//ios
 		}); // window scroll
 			
 	});	// each data-type
