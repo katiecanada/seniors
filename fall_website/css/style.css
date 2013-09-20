@@ -137,6 +137,9 @@ article h2 { }
 #twelveth{background: url(../images/confessions.jpg)50% 0 no-repeat fixed;}
 #last{background: url(../images/bg_facebook.png)50% 0 no-repeat fixed;}
 
+#fb_link {height: 1000px; width: 1000px;}
+#fb_link a {display: block; width: 1000px; height: 1000px;}
+
 li {list-style-type:circle; }
 
 /* Introduction */
