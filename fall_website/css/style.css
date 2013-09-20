@@ -121,7 +121,7 @@ article h2 { }
 }
 
 #first { background: url(../images/bg_stanford_stadium.jpg) 50% 0 no-repeat fixed; }
-#second{ background: url(../images/bg_champagne.jpg) 50% 0 no-repeat fixed; }
+#second{ background: url(../images/bg_gold.jpg) 50% 0 no-repeat fixed; }
 #third {background: url(../images/bg_senior_nights.jpg)50% 0 no-repeat fixed;}
 #fourth{background: url(../images/bg_gsb.jpg) 50% 0 no-repeat fixed;}
 #fifth {background: url(../images/tailgates.jpg) 50% 0 no-repeat fixed;}
@@ -153,6 +153,10 @@ li {list-style-type:circle; }
 
 #third .blackbox, #fifth .blackbox, #seventh .blackbox, #ninth .blackbox, #eleventh .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
 
+#second .blackbox{position: absolute; top: 0;}
+#bubbles { background: url(../images/bubbles.png) transparent no-repeat fixed; min-height: 1100px; max-width: 1920px;  }
+
+
 .horizontalbox{
 	background: black; 
 	height:100%; 
@@ -161,7 +165,7 @@ li {list-style-type:circle; }
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
 	line-height:1.5em; 
 	box-shadow: 0 0 25px rgba(0,0,0,0.3); 
-	//border:1px solid rgba(150,150, 150,0.1);
+	border:1px solid rgba(150,150, 150,0.1);
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
