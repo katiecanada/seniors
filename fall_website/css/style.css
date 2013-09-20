@@ -132,6 +132,7 @@ article h2 { }
 #tenth{background: url(../images/lunch.tif)50% 0 no-repeat fixed;}
 #eleventh{background: url(../images/swag.jpg)50% 0 no-repeat fixed;}
 #twelveth{background: url(../images/confessions.jpg)50% 0 no-repeat fixed;}
+#last{background: url(../images/bg_facebook.png)50% 0 no-repeat fixed;}
 
 li {list-style-type:circle; }
 
@@ -154,7 +155,7 @@ li {list-style-type:circle; }
 #third .blackbox, #fifth .blackbox, #seventh .blackbox, #ninth .blackbox, #eleventh .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
 
 #second .blackbox{position: absolute; top: 0;}
-#bubbles { background: url(../images/bubbles.png) transparent no-repeat fixed; min-height: 1100px; max-width: 1920px;  }
+#bubbles { background: url(../images/bubbles.png) transparent  fixed; min-height: 1100px; max-width: 1920px; opacity: 0.5 }
 
 
 .horizontalbox{
@@ -169,12 +170,6 @@ li {list-style-type:circle; }
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
-}
-
-#last article h1{
-	margin-bottom: 15px;
-	margin-top:15px;
 	text-align: center;
 }
 
@@ -236,7 +231,4 @@ li {list-style-type:circle; }
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
-#last{
-		background-color: 	 #BD2031;
 
-}
