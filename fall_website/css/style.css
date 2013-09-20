@@ -132,6 +132,7 @@ article h2 { }
 #tenth{background: url(../images/lunch.tif)50% 0 no-repeat fixed;}
 #eleventh{background: url(../images/swag.jpg)50% 0 no-repeat fixed;}
 #twelveth{background: url(../images/confessions.jpg)50% 0 no-repeat fixed;}
+#last{background: url(../images/bg_facebook.png)50% 0 no-repeat fixed;}
 
 li {list-style-type:circle; }
 
@@ -165,12 +166,6 @@ li {list-style-type:circle; }
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
-}
-
-#last article h1{
-	margin-bottom: 15px;
-	margin-top:15px;
 	text-align: center;
 }
 
@@ -232,7 +227,4 @@ li {list-style-type:circle; }
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
-#last{
-		background-color: 	 #BD2031;
 
-}
