@@ -78,6 +78,9 @@ nav#primary a.eleventh{
 nav#primary a.twelveth{
 	background: transparent url('../images/nav-dot-confessions.png') 4px 4px no-repeat;
 }
+nav#primary a.last{
+	background: transparent url('../images/nav-dot-fb.png') 4px 4px no-repeat;
+}
 
 nav#primary a:hover, nav#primary a.active {
 	background: transparent url('../images/nav-dot.png') 4px -16px no-repeat;
