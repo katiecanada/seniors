@@ -143,7 +143,7 @@ li {list-style-type:circle; }
 #first article a:hover { color: #fff; }
 
 #second, #fourth, #sixth, #eighth, #tenth, #twelveth { padding: 50px 0;}
-#second .blackbox, #fourth .blackbox, #sixth .blackbox, #eighth  .blackbox, #tenth  .blackbox , #twelveth .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#second .blackbox, #fourth .blackbox, #sixth .blackbox, #eighth  .blackbox, #tenth  .blackbox , #twelveth .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; margin-left: 150px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
 
 #second article p, #fourth article p, #sixth article p, #eighth article p, #tenth article p , #twelveth article p { margin-bottom: 25px; width:400px; }
 #second article a, #fourth article a, #sixth article a, #eighth article a, #tenth article a , #twelveth article a { color: #ff0;}
@@ -152,7 +152,7 @@ li {list-style-type:circle; }
 #third article p, #fifth article p, #seventh article p, #ninth article p, #eleventh article p  { width: 400px; margin-bottom: 25px; }
 #third article a, #fifth article a, #seventh article a, #ninth article a, #eleventh article a { color: #ff0;}
 
-#third .blackbox, #fifth .blackbox, #seventh .blackbox, #ninth .blackbox, #eleventh .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#third .blackbox, #fifth .blackbox, #seventh .blackbox, #ninth .blackbox, #eleventh .blackbox { margin-top:20px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); margin-right: 30px;}
 
 #second .blackbox{position: absolute; top: 0;}
 #bubbles { background: url(../images/bubbles.png) transparent  fixed; min-height: 1100px; max-width: 1920px; opacity: 0.5 }
@@ -182,6 +182,12 @@ li {list-style-type:circle; }
 	top:10px;
 	z-index: 99901;
 	cursor: hand; cursor: pointer; 
+}
+#logo{
+	position:fixed;
+	left: 7px;
+	top:10px;
+	z-index: 99901;
 }
 #fb{
 	position: fixed;
